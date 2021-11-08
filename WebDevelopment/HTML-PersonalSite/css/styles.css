@@ -14,3 +14,29 @@ h1{
 h3{
   color: #39A6A3
 }
+/*
+these are examples of classes within css
+*/
+.workExperience{
+  background-color: gold;
+}
+.skills{
+  border-style: none;
+  background-color: #39A6A3;
+}
+/*
+this is a psuedoclass to handle states of interacting with websites
+*/
+.skills:hover{
+  background-color: yellow;
+}
+/*
+this is an example of giving an object an id;
+only 1 id for each Name
+items can have multiple classes
+*/
+#skillHolder{
+  border-style: dashed none dashed;
+  border-color: #231E23;
+  border-width: thick;
+}
